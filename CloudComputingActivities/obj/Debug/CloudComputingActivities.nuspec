@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CloudComputingActivities</id>
+    <version>0.0.1</version>
+    <title>CloudComputingActivities</title>
+    <authors>Niza Siwale</authors>
+    <owners>Niza Siwale</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CloudComputingActivities</description>
+    <summary>CloudComputingActivities</summary>
+    <copyright>Copyright © Niza Siwale</copyright>
+    <tags>CloudComputingActivities</tags>
+  </metadata>
+  <files>
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.Core.dll" target="lib\net452\AWSSDK.Core.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.DynamoDBv2.dll" target="lib\net452\AWSSDK.DynamoDBv2.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.EC2.dll" target="lib\net452\AWSSDK.EC2.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.RDS.dll" target="lib\net452\AWSSDK.RDS.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.S3.dll" target="lib\net452\AWSSDK.S3.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.SimpleNotificationService.dll" target="lib\net452\AWSSDK.SimpleNotificationService.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\BouncyCastle.Crypto.dll" target="lib\net452\BouncyCastle.Crypto.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Box.V2.dll" target="lib\net452\Box.V2.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Dropbox.Api.dll" target="lib\net452\Dropbox.Api.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\DropboxRestAPI.dll" target="lib\net452\DropboxRestAPI.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.CommonProtos.dll" target="lib\net452\Google.Api.CommonProtos.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.dll" target="lib\net452\Google.Api.Gax.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.Grpc.dll" target="lib\net452\Google.Api.Gax.Grpc.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.Rest.dll" target="lib\net452\Google.Api.Gax.Rest.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Auth.dll" target="lib\net452\Google.Apis.Auth.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Auth.PlatformServices.dll" target="lib\net452\Google.Apis.Auth.PlatformServices.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Compute.v1.dll" target="lib\net452\Google.Apis.Compute.v1.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Core.dll" target="lib\net452\Google.Apis.Core.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.dll" target="lib\net452\Google.Apis.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Drive.v3.dll" target="lib\net452\Google.Apis.Drive.v3.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.PlatformServices.dll" target="lib\net452\Google.Apis.PlatformServices.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Storage.v1.dll" target="lib\net452\Google.Apis.Storage.v1.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Cloud.Datastore.V1.dll" target="lib\net452\Google.Cloud.Datastore.V1.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Cloud.Storage.V1.dll" target="lib\net452\Google.Cloud.Storage.V1.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Protobuf.dll" target="lib\net452\Google.Protobuf.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Grpc.Auth.dll" target="lib\net452\Grpc.Auth.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Grpc.Core.dll" target="lib\net452\Grpc.Core.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.KeyVault.Core.dll" target="lib\net452\Microsoft.Azure.KeyVault.Core.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.AppService.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.AppService.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Batch.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Batch.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.BatchAI.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.BatchAI.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Cdn.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Cdn.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Compute.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Compute.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ContainerInstance.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.ContainerInstance.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ContainerRegistry.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.ContainerRegistry.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ContainerService.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.ContainerService.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.CosmosDB.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.CosmosDB.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Dns.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Dns.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.EventHub.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.EventHub.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Graph.RBAC.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Graph.RBAC.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.KeyVault.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.KeyVault.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Locks.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Locks.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Monitor.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Monitor.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Msi.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Msi.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Network.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Network.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Redis.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Redis.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ResourceManager.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.ResourceManager.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Search.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Search.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ServiceBus.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.ServiceBus.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Sql.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Sql.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Storage.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.Storage.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.TrafficManager.Fluent.dll" target="lib\net452\Microsoft.Azure.Management.TrafficManager.Fluent.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" target="lib\net452\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll" target="lib\net452\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Logging.dll" target="lib\net452\Microsoft.IdentityModel.Logging.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Tokens.dll" target="lib\net452\Microsoft.IdentityModel.Tokens.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.Authentication.dll" target="lib\net452\Microsoft.Rest.ClientRuntime.Azure.Authentication.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll" target="lib\net452\Microsoft.Rest.ClientRuntime.Azure.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Rest.ClientRuntime.dll" target="lib\net452\Microsoft.Rest.ClientRuntime.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Win32.Primitives.dll" target="lib\net452\Microsoft.Win32.Primitives.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.WindowsAzure.Storage.dll" target="lib\net452\Microsoft.WindowsAzure.Storage.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\MySqlConnector.dll" target="lib\net452\MySqlConnector.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Newtonsoft.Json.dll" target="lib\net452\Newtonsoft.Json.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Renci.SshNet.dll" target="lib\net452\Renci.SshNet.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Buffers.dll" target="lib\net452\System.Buffers.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Diagnostics.DiagnosticSource.dll" target="lib\net452\System.Diagnostics.DiagnosticSource.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.IdentityModel.Tokens.Jwt.dll" target="lib\net452\System.IdentityModel.Tokens.Jwt.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Memory.dll" target="lib\net452\System.Memory.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.Algorithms.dll" target="lib\net452\System.Security.Cryptography.Algorithms.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.Encoding.dll" target="lib\net452\System.Security.Cryptography.Encoding.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.Primitives.dll" target="lib\net452\System.Security.Cryptography.Primitives.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.X509Certificates.dll" target="lib\net452\System.Security.Cryptography.X509Certificates.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Threading.Tasks.Extensions.dll" target="lib\net452\System.Threading.Tasks.Extensions.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll" target="lib\net452\System.Runtime.CompilerServices.Unsafe.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.Core.pdb" target="lib\net452\AWSSDK.Core.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.DynamoDBv2.pdb" target="lib\net452\AWSSDK.DynamoDBv2.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.EC2.pdb" target="lib\net452\AWSSDK.EC2.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.RDS.pdb" target="lib\net452\AWSSDK.RDS.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.S3.pdb" target="lib\net452\AWSSDK.S3.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.SimpleNotificationService.pdb" target="lib\net452\AWSSDK.SimpleNotificationService.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\DropboxRestAPI.pdb" target="lib\net452\DropboxRestAPI.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.pdb" target="lib\net452\Google.Api.Gax.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.Rest.pdb" target="lib\net452\Google.Api.Gax.Rest.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.pdb" target="lib\net452\Google.Apis.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Auth.pdb" target="lib\net452\Google.Apis.Auth.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Compute.v1.pdb" target="lib\net452\Google.Apis.Compute.v1.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Core.pdb" target="lib\net452\Google.Apis.Core.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Drive.v3.pdb" target="lib\net452\Google.Apis.Drive.v3.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Cloud.Storage.V1.pdb" target="lib\net452\Google.Cloud.Storage.V1.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.WindowsAzure.Storage.pdb" target="lib\net452\Microsoft.WindowsAzure.Storage.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivity\bin\Debug\CloudStorageActivity.dll" target="lib\net452\CloudStorageActivity.dll" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivity\bin\Debug\CloudStorageActivity.pdb" target="lib\net452\CloudStorageActivity.pdb" exclude="" />
+    <file src="C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\Readme.txt" target="Readme.txt" exclude="" />
+  </files>
+</package>

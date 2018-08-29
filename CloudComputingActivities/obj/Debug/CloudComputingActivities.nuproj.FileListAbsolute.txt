@@ -1,0 +1,7 @@
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\obj\Debug\CloudComputingActivities.nuspec
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\bin\Debug\CloudComputingActivities.0.0.1.nupkg
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\bin\Debug\CloudComputingActivities.0.0.1.symbols.nupkg
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\obj\Debug\CloudComputingActivities.0.0.1.nupkg
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\obj\Debug\CloudComputingActivities.0.0.1.symbols.nupkg
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\bin\Debug\index.html
+C:\Users\pc\Documents\Visual Studio 2015\Projects\CloudComputingActivity\CloudComputingActivities\bin\Debug\credentials.json
