@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE6BC629-E682-4AAC-AA08-A52BED7FC1AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CloudStorageActivity</RootNamespace>
+    <AssemblyName>CloudStorageActivity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.DynamoDBv2">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.DynamoDBv2.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.EC2">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.EC2.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.RDS">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.RDS.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.S3.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SimpleNotificationService">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\AWSSDK.SimpleNotificationService.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Box.V2">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Box.V2.dll</HintPath>
+    </Reference>
+    <Reference Include="Dropbox.Api">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Dropbox.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="DropboxRestAPI">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\DropboxRestAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.CommonProtos">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.CommonProtos.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Grpc">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.Grpc.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Rest">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Api.Gax.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Compute.v1">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Compute.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Drive.v3">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Drive.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Storage.v1">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Apis.Storage.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.Datastore.V1">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Cloud.Datastore.V1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.Storage.V1">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Cloud.Storage.V1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Auth">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Grpc.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.Core">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.KeyVault.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.AppService.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.AppService.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Batch.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Batch.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.BatchAI.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.BatchAI.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Cdn.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Cdn.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Compute.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Compute.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ContainerInstance.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ContainerInstance.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ContainerRegistry.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ContainerRegistry.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ContainerService.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ContainerService.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.CosmosDB.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.CosmosDB.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Dns.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Dns.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.EventHub.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.EventHub.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Graph.RBAC.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Graph.RBAC.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.KeyVault.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.KeyVault.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Locks.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Locks.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Monitor.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Monitor.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Msi.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Msi.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Network.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Network.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Redis.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Redis.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ResourceManager.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ResourceManager.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Search.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Search.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.ServiceBus.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.ServiceBus.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Sql.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Sql.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.Storage.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.Storage.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Management.TrafficManager.Fluent">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Azure.Management.TrafficManager.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime.Azure">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Rest.ClientRuntime.Azure.Authentication">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.Authentication.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Buffers">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\..\CloudStorageActivity\CloudStorageActivity\bin\Debug\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Aws\DynamoDB\DynamoDBConnector.cs" />
+    <Compile Include="Aws\Ec2\EC2Connector.cs" />
+    <Compile Include="Aws\Ec2\EC2TerminalRunner.cs" />
+    <Compile Include="Aws\Rds\RDSConnector.cs" />
+    <Compile Include="Aws\Sns\SnsConnector.cs" />
+    <Compile Include="Azure\sql\AzureSqlConnector.cs" />
+    <Compile Include="Azure\Vm\AzureVM.cs" />
+    <Compile Include="Azure\Vm\AzureVMTerminalRunner.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Cloud Storage\AwsS3\Copy.cs" />
+    <Compile Include="Cloud Storage\AwsS3\CreateDir.cs" />
+    <Compile Include="Cloud Storage\AwsS3\Delete.cs" />
+    <Compile Include="Cloud Storage\AwsS3\Download.cs" />
+    <Compile Include="Cloud Storage\AwsS3\Move.cs" />
+    <Compile Include="Cloud Storage\AwsS3\Upload.cs" />
+    <Compile Include="Cloud Storage\Azure\Copy.cs" />
+    <Compile Include="Cloud Storage\Azure\Delete.cs" />
+    <Compile Include="Cloud Storage\Azure\Download.cs" />
+    <Compile Include="Cloud Storage\Azure\Move.cs" />
+    <Compile Include="Cloud Storage\Azure\Upload.cs" />
+    <Compile Include="Cloud Storage\Dropbox\Copy.cs" />
+    <Compile Include="Cloud Storage\Dropbox\Delete.cs" />
+    <Compile Include="Cloud Storage\Dropbox\Download.cs" />
+    <Compile Include="Cloud Storage\Dropbox\Move.cs" />
+    <Compile Include="Cloud Storage\Dropbox\Upload.cs" />
+    <Compile Include="Cloud Storage\GoogleDrive\Copy.cs" />
+    <Compile Include="Cloud Storage\GoogleDrive\Delete.cs" />
+    <Compile Include="Cloud Storage\GoogleDrive\Download.cs" />
+    <Compile Include="Cloud Storage\GoogleDrive\Move.cs" />
+    <Compile Include="Cloud Storage\GoogleDrive\Upload.cs" />
+    <Compile Include="Databases\Aws RDS\CreateTable.cs" />
+    <Compile Include="Databases\Aws RDS\Delete.cs" />
+    <Compile Include="Databases\Aws RDS\Insert.cs" />
+    <Compile Include="Databases\Aws RDS\Select.cs" />
+    <Compile Include="Databases\Aws RDS\Update.cs" />
+    <Compile Include="Databases\Azure\CreateTable.cs" />
+    <Compile Include="Databases\Azure\Delete.cs" />
+    <Compile Include="Databases\Azure\Insert.cs" />
+    <Compile Include="Databases\Azure\Select.cs" />
+    <Compile Include="Databases\Azure\Update.cs" />
+    <Compile Include="Databases\Google Cloud Compute\CreateTable.cs" />
+    <Compile Include="Databases\Google Cloud Compute\Delete.cs" />
+    <Compile Include="Databases\Google Cloud Compute\Insert.cs" />
+    <Compile Include="Databases\Google Cloud Compute\Select.cs" />
+    <Compile Include="Databases\Google Cloud Compute\Update.cs" />
+    <Compile Include="DataHandler\AwsS3DataHandler.cs" />
+    <Compile Include="DataHandler\AzureUniversalDataHandler.cs" />
+    <Compile Include="DataHandler\BoxUniversalDataHandler.cs" />
+    <Compile Include="DataHandler\DropboxDataHandler.cs" />
+    <Compile Include="DataHandler\GCStorageDataHandler.cs" />
+    <Compile Include="DataHandler\GoogleDriveUniversalDataHandler.cs" />
+    <Compile Include="DataHandler\UniversalDataHandler.cs" />
+    <Compile Include="Data\AppAcivityAction.cs" />
+    <Compile Include="Data\DataUtils.cs" />
+    <Compile Include="Data\FileItem.cs" />
+    <Compile Include="GoogleCloud\CloudCompute\CloudComputeConnector.cs" />
+    <Compile Include="GoogleCloud\CloudCompute\CloudComputeTerminalRunner.cs" />
+    <Compile Include="GoogleCloud\DataStore\GCDataStoreConnector.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\StringUtils.cs" />
+    <Compile Include="Virtual Machines\Create Virtual Machine\Aws EC2\Linux.cs" />
+    <Compile Include="Virtual Machines\Create Virtual Machine\Azure\CentOS7.cs" />
+    <Compile Include="Virtual Machines\Create Virtual Machine\Azure\Debian8.cs" />
+    <Compile Include="Virtual Machines\Create Virtual Machine\Azure\Ubuntu14.cs" />
+    <Compile Include="Virtual Machines\Create Virtual Machine\Azure\Ubuntu16.cs" />
+    <Compile Include="Virtual Machines\Create Virtual Machine\Google Cloud Compute\Linux.cs" />
+    <Compile Include="Virtual Machines\Run Commands\AWS EC2\Linux.cs" />
+    <Compile Include="Virtual Machines\Run Commands\Azure\Linux.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="credentials.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
